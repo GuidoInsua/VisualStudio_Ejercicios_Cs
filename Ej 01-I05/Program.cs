@@ -1,12 +1,12 @@
 ﻿//Guido Insua
 
-namespace Ej_02_A01
+namespace Ej_01_I05
 {
-    internal class Program
+    class Program
     {
         static void Main(string[] args)
         {
-            Console.Title = "Ejercicio A01 - Calcular un factorial";
+            Console.Title = "Ejercicio I05 - Tirame un centro";
             Console.WriteLine("Hello, World!");
         }
     }
