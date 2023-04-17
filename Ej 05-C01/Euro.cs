@@ -4,19 +4,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Billetes
+namespace Ej_05_C01
 {
     internal class Euro
     {
         private double _cantidad;
-        public double Cantidad { get => _cantidad; }
+        public double Cantidad 
+        { get => _cantidad; set => _cantidad = value; }
 
         private static double _cotzRespectoDolar;
-        public static double CotzRespectoDolar { get => _cotzRespectoDolar; }
+        public static double CotzRespectoDolar 
+        { get => _cotzRespectoDolar; set => _cotzRespectoDolar = value; }
 
         static Euro()
         {
-            Euro._cotzRespectoDolar = 0.89;
+            Euro._cotzRespectoDolar = 1 / 1.18;
         }
 
         public Euro(double cantidad)

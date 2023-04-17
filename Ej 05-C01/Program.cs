@@ -1,6 +1,6 @@
 //Guido Insua
 
-namespace Ej_05_I01
+namespace Ej_05_C01
 {
     internal static class Program
     {

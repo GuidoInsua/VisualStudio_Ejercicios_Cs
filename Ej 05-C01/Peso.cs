@@ -4,15 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Billetes
+namespace Ej_05_C01
 {
     internal class Peso
     {
         private double _cantidad;
-        public double Cantidad { get => _cantidad; }
+        public double Cantidad { get => _cantidad; set => _cantidad = value; }
 
         private static double _cotzRespectoDolar;
-        public static double CotzRespectoDolar { get => _cotzRespectoDolar; }
+        public static double CotzRespectoDolar 
+        { get => _cotzRespectoDolar; set => _cotzRespectoDolar = value; }
 
         static Peso()
         {
