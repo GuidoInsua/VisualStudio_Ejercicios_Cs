@@ -40,6 +40,7 @@
             rtbx_palabras.Size = new Size(776, 374);
             rtbx_palabras.TabIndex = 0;
             rtbx_palabras.Text = "";
+            rtbx_palabras.TextChanged += rtbx_palabras_TextChanged;
             // 
             // btn_calcular
             // 

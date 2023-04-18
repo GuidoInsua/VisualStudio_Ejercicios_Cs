@@ -33,9 +33,9 @@ namespace Ej_06_I03
             char[] separador = new char[] { ' ', ',', '.', ':', '\t' };
             _palabras.AddRange(texto.Split(separador, StringSplitOptions.RemoveEmptyEntries));
 
-            foreach (string s in _palabras) 
+            foreach (string s in _palabras)
             {
-                if (_contadorPalabras.ContainsKey(s)) 
+                if (_contadorPalabras.ContainsKey(s))
                 {
                     _contadorPalabras[s]++;
                 }
@@ -52,7 +52,7 @@ namespace Ej_06_I03
 
             int i = 0;
 
-            if(_contadorPalabras.Count == 0)
+            if (_contadorPalabras.Count == 0)
             {
                 myString.AppendLine("Vacio");
             }
@@ -62,13 +62,18 @@ namespace Ej_06_I03
                 i++;
                 myString.AppendLine($"{elemento.Key}   {elemento.Value}");
 
-                if(i >= 3)
+                if (i >= 3)
                 {
                     break;
                 }
             }
 
             return myString.ToString();
+        }
+
+        private void rtbx_palabras_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
