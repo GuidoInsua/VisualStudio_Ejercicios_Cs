@@ -11,7 +11,6 @@ namespace Ej_01_I02
             int numero;
             bool rtaParse;
             double cuadrado;
-            double cubo;
 
             do
             {
