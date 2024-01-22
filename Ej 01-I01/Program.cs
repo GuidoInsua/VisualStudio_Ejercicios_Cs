@@ -11,7 +11,6 @@ namespace Ej_01_I01
             int numero;
             int maximo = 0;
             int minimo = 0;
-            int promedio = 0;
             bool rtaParse;
 
             for (int i = 0; i < 5; i++)
